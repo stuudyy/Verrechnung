@@ -47,6 +47,7 @@
             this.btnWarenkorb.TabIndex = 0;
             this.btnWarenkorb.Text = "Warenkorb";
             this.btnWarenkorb.UseVisualStyleBackColor = true;
+            this.btnWarenkorb.Click += new System.EventHandler(this.btnWarenkorb_Click);
             // 
             // btnArtikel
             // 
@@ -57,6 +58,7 @@
             this.btnArtikel.TabIndex = 1;
             this.btnArtikel.Text = "Artikel";
             this.btnArtikel.UseVisualStyleBackColor = true;
+            this.btnArtikel.Click += new System.EventHandler(this.btnArtikel_Click);
             // 
             // btnKunde
             // 
@@ -67,6 +69,7 @@
             this.btnKunde.TabIndex = 2;
             this.btnKunde.Text = "Kunde";
             this.btnKunde.UseVisualStyleBackColor = true;
+            this.btnKunde.Click += new System.EventHandler(this.btnKunde_Click);
             // 
             // btnRechnung
             // 
@@ -77,6 +80,7 @@
             this.btnRechnung.TabIndex = 3;
             this.btnRechnung.Text = "Rechnung";
             this.btnRechnung.UseVisualStyleBackColor = true;
+            this.btnRechnung.Click += new System.EventHandler(this.btnRechnung_Click);
             // 
             // btnUmsatzsteuer
             // 
@@ -87,6 +91,7 @@
             this.btnUmsatzsteuer.TabIndex = 4;
             this.btnUmsatzsteuer.Text = "Umsatzsteuer";
             this.btnUmsatzsteuer.UseVisualStyleBackColor = true;
+            this.btnUmsatzsteuer.Click += new System.EventHandler(this.btnUmsatzsteuer_Click);
             // 
             // btnStatistik
             // 
@@ -97,6 +102,7 @@
             this.btnStatistik.TabIndex = 5;
             this.btnStatistik.Text = "Statistik";
             this.btnStatistik.UseVisualStyleBackColor = true;
+            this.btnStatistik.Click += new System.EventHandler(this.btnStatistik_Click);
             // 
             // btnAlleSchließen
             // 
@@ -107,6 +113,7 @@
             this.btnAlleSchließen.TabIndex = 6;
             this.btnAlleSchließen.Text = "Alle Schließen";
             this.btnAlleSchließen.UseVisualStyleBackColor = true;
+            this.btnAlleSchließen.Click += new System.EventHandler(this.btnAlleSchließen_Click);
             // 
             // btnProgrammSchließen
             // 
@@ -117,6 +124,7 @@
             this.btnProgrammSchließen.TabIndex = 7;
             this.btnProgrammSchließen.Text = "Programm schließen";
             this.btnProgrammSchließen.UseVisualStyleBackColor = true;
+            this.btnProgrammSchließen.Click += new System.EventHandler(this.btnProgrammSchließen_Click);
             // 
             // frmStart
             // 
@@ -140,14 +148,14 @@
 
         #endregion
 
-        private System.Windows.Forms.Button btnWarenkorb;
-        private System.Windows.Forms.Button btnArtikel;
-        private System.Windows.Forms.Button btnKunde;
-        private System.Windows.Forms.Button btnRechnung;
-        private System.Windows.Forms.Button btnUmsatzsteuer;
-        private System.Windows.Forms.Button btnStatistik;
-        private System.Windows.Forms.Button btnAlleSchließen;
-        private System.Windows.Forms.Button btnProgrammSchließen;
+        internal System.Windows.Forms.Button btnWarenkorb;
+        internal System.Windows.Forms.Button btnArtikel;
+        internal System.Windows.Forms.Button btnKunde;
+        internal System.Windows.Forms.Button btnRechnung;
+        internal System.Windows.Forms.Button btnUmsatzsteuer;
+        internal System.Windows.Forms.Button btnStatistik;
+        internal System.Windows.Forms.Button btnAlleSchließen;
+        internal System.Windows.Forms.Button btnProgrammSchließen;
     }
 }
 
