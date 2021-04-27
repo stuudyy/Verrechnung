@@ -48,6 +48,7 @@
             this.btnWarenkorb.Text = "Warenkorb";
             this.btnWarenkorb.UseVisualStyleBackColor = true;
             this.btnWarenkorb.Click += new System.EventHandler(this.btnWarenkorb_Click);
+            this.btnWarenkorb.MouseDown += new System.Windows.Forms.MouseEventHandler(this.button_ZuClick);
             // 
             // btnArtikel
             // 
@@ -59,6 +60,7 @@
             this.btnArtikel.Text = "Artikel";
             this.btnArtikel.UseVisualStyleBackColor = true;
             this.btnArtikel.Click += new System.EventHandler(this.btnArtikel_Click);
+            this.btnArtikel.MouseDown += new System.Windows.Forms.MouseEventHandler(this.button_ZuClick);
             // 
             // btnKunde
             // 
@@ -70,6 +72,7 @@
             this.btnKunde.Text = "Kunde";
             this.btnKunde.UseVisualStyleBackColor = true;
             this.btnKunde.Click += new System.EventHandler(this.btnKunde_Click);
+            this.btnKunde.MouseDown += new System.Windows.Forms.MouseEventHandler(this.button_ZuClick);
             // 
             // btnRechnung
             // 
@@ -81,6 +84,7 @@
             this.btnRechnung.Text = "Rechnung";
             this.btnRechnung.UseVisualStyleBackColor = true;
             this.btnRechnung.Click += new System.EventHandler(this.btnRechnung_Click);
+            this.btnRechnung.MouseDown += new System.Windows.Forms.MouseEventHandler(this.button_ZuClick);
             // 
             // btnUmsatzsteuer
             // 
@@ -92,6 +96,7 @@
             this.btnUmsatzsteuer.Text = "Umsatzsteuer";
             this.btnUmsatzsteuer.UseVisualStyleBackColor = true;
             this.btnUmsatzsteuer.Click += new System.EventHandler(this.btnUmsatzsteuer_Click);
+            this.btnUmsatzsteuer.MouseDown += new System.Windows.Forms.MouseEventHandler(this.button_ZuClick);
             // 
             // btnStatistik
             // 
@@ -103,11 +108,12 @@
             this.btnStatistik.Text = "Statistik";
             this.btnStatistik.UseVisualStyleBackColor = true;
             this.btnStatistik.Click += new System.EventHandler(this.btnStatistik_Click);
+            this.btnStatistik.MouseDown += new System.Windows.Forms.MouseEventHandler(this.button_ZuClick);
             // 
             // btnAlleSchließen
             // 
             this.btnAlleSchließen.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAlleSchließen.Location = new System.Drawing.Point(107, 437);
+            this.btnAlleSchließen.Location = new System.Drawing.Point(107, 453);
             this.btnAlleSchließen.Name = "btnAlleSchließen";
             this.btnAlleSchließen.Size = new System.Drawing.Size(160, 49);
             this.btnAlleSchließen.TabIndex = 6;

@@ -63,9 +63,56 @@ namespace Verrechnung
             }
         }
 
+ #region Methoden
+        internal void button_ZuClick(object sender, MouseEventArgs e)
+        {
+            switch (e.Button)
+            {
+                case MouseButtons.Right:
+                    Button btn = (Button)sender;
 
-
-        #region Methoden
+                    if(btn==btnArtikel)
+                    {
+                        if (frmArt != null)
+                        {
+                            frmArt.Close();
+                        }
+                    }
+                    if(btn == btnKunde)
+                    {
+                        if (frmKun != null)
+                            frmKun.Close();
+                    }
+                    if(btn == btnRechnung)
+                    {
+                        if (frmRech != null)
+                            frmRech.Close();
+                    }
+                    if(btn == btnStatistik)
+                    {
+                        if(frmStat != null)
+                        {
+                            frmStat.Close();
+                        }
+                    }
+                    if(btn == btnUmsatzsteuer)
+                    {
+                        if (frmUst != null)
+                            frmUst.Close();
+                    }
+                    if(btn==btnWarenkorb)
+                    {
+                        if(frmWk!=null)
+                        {
+                            frmWk.Close();
+                        }
+                    }
+                        
+                            
+                    
+                    break;
+            }
+        }
        
         #endregion
 
