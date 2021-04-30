@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Data.OleDb;
 using System.Data;
-//using System.Data.SqlClient;
+using System.Data.SqlClient;
 
 
 namespace Verrechnung
@@ -21,7 +21,7 @@ namespace Verrechnung
         public Datenbank()
         {
             //cn =datasource=127.0.0.1;port=3306;username=root;password=;database=test;";
-            cn = "Provider=Microsoft.ACE.OLEDB.12.0; Data Source = Autos.accdb";
+            cn = "Provider=Microsoft.ACE.OLEDB.12.0; Data Source = Verrechnung.accdb";
             verbindung = new OleDbConnection(cn);
             verbindung.Open();
         }
@@ -75,6 +75,6 @@ namespace Verrechnung
             }
             
         }
-
+        
     }
 }
